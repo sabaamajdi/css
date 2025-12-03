@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+/* ===== HEADER (HERO) ===== */
+.hero {
+    background-image: url("C:/Users/USER/Desktop/oyil/html/Screenshot 2025-11-24 164719.png");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 8px;
+    width: 60%;
+}
+
+.hero-content button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ===== TITLE SECTION ===== */
+.title-section {
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.title-section h2 {
+    margin-bottom: 15px;
+}
+
+/* ===== THREE BOXES ===== */
+.three-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background: #efefef;
+}
+
+.box {
+    width: 300px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* ===== DEVELOP SECTION ===== */
+.develop {
+    text-align: center;
+    padding: 50px;
+    background: white;
+}
+
+/* ===== CONTACT + ABOUT ===== */
+.contact-about {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card {
+    width: 50%;
+    padding: 40px;
+    color: white;
+}
+
+.contact {
+    background: #2d9cdb;
+}
+
+.about {
+    background: #333;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    margin-top: 10px;
+}
